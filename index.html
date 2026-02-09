@@ -1,58 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sarvesh Saranyan Resume</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarvesh Saranyan — Resume</title>
 
+  <!-- Google Font (ITMD 541 requirement) -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-text">
+        <h1>Sarvesh Saranyan</h1>
+        <p class="tagline">IT & Business Operations | Data Analysis | Process Improvement</p>
 
-<header>
-  <h1>Sarvesh Saranyan</h1>
-  <h2>Aspiring Web Developer</h2>
-  <nav>
-    <a href="mailto:ssaranyan@hawk.iit.edu">Email</a>
-    <a href="https://github.com/ssaranyan-crypto">GitHub</a>
-  </nav>
-</header>
+        <nav class="contact-links" aria-label="Contact links">
+          <a href="#">USA</a>
+          <a href="tel:+13124933827">+1 312-493-3827</a>
+          <a href="mailto:ssaranyan@hawk.illinoistech.edu">ssaranyan@hawk.illinoistech.edu</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        </nav>
+      </div>
 
-<section>
-  <h3>Summary</h3>
-  <p>Motivated IT graduate student passionate about web development, cloud, and building real-world software solutions.</p>
-</section>
+      <!-- Image requirement (replace src with your uploaded image path) -->
+      <img
+        class="profile-img"
+        src="assets/profile.jpg"
+        alt="Professional headshot of Sarvesh Saranyan"
+      />
+    </div>
+  </header>
 
-<section>
-  <h3>Education</h3>
-  <p>MS in Information Technology & Management — Illinois Institute of Technology (Expected 2026)</p>
-</section>
+  <main class="container">
+    <section class="card" id="summary">
+      <h2>Summary</h2>
+      <p>
+        Detail-oriented IT & business operations candidate pursuing a Master’s in Information Technology & Management at Illinois Institute of Technology.
+        Strong foundation in data analysis, documentation, project coordination, and process improvement. Experienced in supporting cross-functional teams,
+        managing detailed reports, analyzing issues, and presenting findings to stakeholders. Highly interested in commercial banking, change management,
+        financial operations, and business effectiveness initiatives.
+      </p>
+    </section>
 
-<section>
-  <h3>Skills</h3>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Git & GitHub</li>
-    <li>Java</li>
-    <li>Problem Solving</li>
-  </ul>
-</section>
+    <section class="card" id="experience">
+      <h2>Professional Experience</h2>
 
-<section>
-  <h3>Projects</h3>
-  <p><a href="https://github.com/ssaranyan-crypto/DailyInspireApp">Daily Inspire App</a></p>
-</section>
+      <article class="item">
+        <div class="item-header">
+          <h3>Software Engineer – Network Security Automation (Client: Palo Alto Networks)</h3>
+          <p class="meta">Oct 2022 – Sep 2024</p>
+        </div>
+        <p class="meta">HCL Technologies — Chennai, India (Remote)</p>
+        <ul>
+          <li>Supported project cycles by analyzing client issues, documenting root causes, and preparing detailed reports for leadership.</li>
+          <li>Organized data from ticketing systems and produced structured summaries used for decision-making and prioritization.</li>
+          <li>Collaborated with cross-functional teams and clients to review process gaps, validate information, and ensure execution accuracy.</li>
+          <li>Prepared documentation, process flows, and knowledge resources that improved operational consistency.</li>
+          <li>Managed Jira workflows and maintained data integrity across multiple reporting dashboards.</li>
+          <li>Assisted in project review cycles where analytical thinking, accuracy, and communication of findings were essential.</li>
+        </ul>
+      </article>
+    </section>
 
-<section>
-  <img src="https://via.placeholder.com/150" alt="Profile image of Sarvesh">
-</section>
+    <section class="card" id="projects">
+      <h2>Projects</h2>
 
-<footer>
-  <p>© 2026 Sarvesh Saranyan — Hosted on GitHub Pages</p>
-</footer>
+      <article class="item">
+        <div class="item-header">
+          <h3>Cloud-Based IT Ticketing Automation Tool</h3>
+          <p class="meta">Jan 2025 – May 2025</p>
+        </div>
+        <ul>
+          <li>Designed and implemented an automated ticket management system using Python and Excel macros to simulate enterprise IT workflows.</li>
+          <li>Developed automated routing logic and SLA tracking features to enhance efficiency and workflow visibility for IT support operations.</li>
+        </ul>
+        <p class="links">
+          <a href="https://github.com/ssaranyan-crypto" target="_blank" rel="noopener">GitHub Profile</a>
+        </p>
+      </article>
 
+      <article class="item">
+        <div class="item-header">
+          <h3>Firewall Monitoring & Security Log Automation Lab</h3>
+          <p class="meta">Aug 2024 – Dec 2024</p>
+        </div>
+        <ul>
+          <li>Configured virtual firewalls, created custom policies, and analyzed packet flows to strengthen network security.</li>
+          <li>Automated log extraction and report generation using Python scripting for real-time security analysis and anomaly detection.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <div class="item-header">
+          <h3>Network Automation Framework for NGFW Testing</h3>
+          <p class="meta">Oct 2023 – Mar 2024</p>
+        </div>
+        <ul>
+          <li>Built a Python-based automation framework using Pytest and PARTS to validate routing and switching protocols (TCP/IP, VLAN, OSPF, DHCP).</li>
+          <li>Developed reusable test modules for firewall configuration, regression validation, and performance benchmarking on Palo Alto Networks devices.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>Skills & Certifications</h2>
+
+      <div class="grid">
+        <div>
+          <h3 class="subhead">Business & Analysis</h3>
+          <p>Data Analysis • Documentation • Reporting • Process Improvement • Risk Awareness</p>
+        </div>
+        <div>
+          <h3 class="subhead">Tools</h3>
+          <p>Excel (PivotTables, VLOOKUP) • PowerPoint • MS Word • Jira • Confluence</p>
+        </div>
+        <div>
+          <h3 class="subhead">Professional</h3>
+          <p>Communication • Problem Solving • Stakeholder Collaboration • Attention to Detail • Time Management</p>
+        </div>
+        <div>
+          <h3 class="subhead">Technical</h3>
+          <p>Python • SQL • Basic Power BI • Workflow Mapping</p>
+        </div>
+      </div>
+
+      <p class="cert">
+        <strong>Certifications:</strong> AI for Everyone • Foundations for Project Management
+      </p>
+    </section>
+
+    <section class="card" id="education">
+      <h2>Education</h2>
+
+      <article class="item">
+        <div class="item-header">
+          <h3>M.S. in Information Technology and Management</h3>
+          <p class="meta">Jan 2025 – Dec 2027</p>
+        </div>
+        <p class="meta">Illinois Institute of Technology, IL — <strong>GPA: 4.0</strong></p>
+      </article>
+
+      <article class="item">
+        <div class="item-header">
+          <h3>B.Tech. in Information Technology</h3>
+          <p class="meta">Jun 2018 – May 2022</p>
+        </div>
+        <p class="meta">Anna University, India</p>
+      </article>
+    </section>
+
+    <section class="card" id="leadership">
+      <h2>Leadership & Campus Experience</h2>
+
+      <article class="item">
+        <div class="item-header">
+          <h3>Alumni Relations Manager</h3>
+          <p class="meta">Jun 2025 – Present</p>
+        </div>
+        <p class="meta">Illinois Institute of Technology</p>
+        <ul>
+          <li>Led outreach, event support, and communication with alumni and student groups.</li>
+          <li>Strengthened professional relationship-building and presentation skills.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <div class="item-header">
+          <h3>Volunteer Services Manager / Event Coordinator</h3>
+          <p class="meta">HCL Tech</p>
+        </div>
+        <ul>
+          <li>Trained volunteers, managed onboarding, and coordinated events involving 200+ participants.</li>
+          <li>Developed strong interpersonal and organizational abilities.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card" id="interests">
+      <h2>Interests</h2>
+      <p>Commercial Banking • Business Analysis • Change Management • Financial Data Reporting • Risk Management</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Sarvesh Saranyan — Hosted on GitHub Pages</p>
+  </footer>
 </body>
 </html>
+
